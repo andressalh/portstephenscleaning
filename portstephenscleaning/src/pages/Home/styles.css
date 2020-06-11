@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
+body{
+    font-family: 'Courier Prime', monospace!important;
+}
+
+/* MENU */
+
+li.nav-item {
+    list-style: none;
+}
+.nav-link {
+    color: #000;
+}
+
+ul.links.nav {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+img.logo {
+    width: 350px;
+}
+.navbar {
+    padding: 1.5rem 1rem;
+}
+.nav-link {
+    text-transform: uppercase;
+}
+
+
+
+
+/*about us */
+
+#about {
+    padding: 4rem 25vw;
+    text-align: center;
+}
+#about h2 {
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+/*img*/
+
+.imgHeader img {
+    width: 100vw;
+}
+
+
+/*why us*/
+
+
+
+#why-us {
+    text-align: center;
+    background-color: #F3F3F3;
+    padding: 2rem 0;
+}
+
+.row-why-us {
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+}
+
+#why-us h2 {
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.card-why-us {
+    width: 23rem;
+    margin-right: 2rem;
+}
+.card-why-us:last-child {
+    margin-right: 0;
+}
+img.card-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+}
+
+
+/*carousel*/
+
+
+
+.carousel-caption {
+    color: #000;
+}
+
+@media all and (max-width: 1167px) {
+  
+    .card-why-us {
+        margin-bottom: 2rem; 
+    }
+    .card-why-us:last-child {
+        margin-bottom: 0m; 
+    }
+ }
+
+
+@media all and (max-width: 765px) { 
+
+    .card-why-us {
+        margin-right: 0; 
+    }
+
+ }
