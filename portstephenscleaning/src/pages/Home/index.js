@@ -15,9 +15,7 @@ import logo from '../../assets/logo.png';
 import eco from '../../assets/eco.png';
 import me from '../../assets/me.jpg';
 import './styles.css';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-
+import Carousel from 'react-bootstrap/Carousel'
 
 export default function Home (){
     return(
@@ -84,19 +82,34 @@ export default function Home (){
             <div className="carousel"> 
                 <h2>What our customers say</h2>
                 <Carousel>
-                <div>
-                    <img src={me} />
-                    <p className="legend">Legend 1</p>
-                </div>
-                <div>
-                    <img src={me} />
-                    <p className="legend">Legend 2</p>
-                </div>
-                <div>
-                    <img src={me} />
-                    <p className="legend">Legend 3</p>
-                </div>
-                </Carousel>
+                    <Carousel.Item>
+                        <img
+                        className="slider-name"
+                        src={me}
+                        alt="First slide"
+                        />
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="slider-name"
+                        src={me}
+                        alt="First slide"
+                        />
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="slider-name"
+                        src={me}
+                        alt="First slide"
+                        />
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Item>
+                    </Carousel>
             </div>
         </Fragment>
     )

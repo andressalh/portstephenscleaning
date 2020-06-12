@@ -86,10 +86,15 @@ img.card-img {
 
 /*carousel*/
 
+.carousel {
+    text-align: center;
+}
 
-
-.carousel-caption {
-    color: #000;
+.slider-name {
+    width: 100px!important;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px 50px;
 }
 
 @media all and (max-width: 1167px) {
