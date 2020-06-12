@@ -41,9 +41,15 @@ img.logo {
     ul.links.nav {
         margin: 0 auto;
     }
-    .sticky-top {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
+    nav.navbar.navbar-expand-md.sticky-top {
+        display: flex!important;
+        flex-direction: column!important;
+        margin: 0 auto!important;
     }
+    .have-question {
+        align-items: flex-start!important;
+        flex-direction: column;
+        display: flex;
+    }
+  
 }

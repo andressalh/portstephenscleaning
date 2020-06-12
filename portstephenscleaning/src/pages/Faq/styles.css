@@ -93,4 +93,16 @@
     }
 }
 
-@media all and (max-width: 750px) { /* your content here */ }
+@media all and (max-width: 750px) {
+
+    .divQuestion {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .question-contact {
+        padding: 3rem 1rem;
+    }
+    footer.div-footer {
+        padding: 1rem;
+    }
+ }
