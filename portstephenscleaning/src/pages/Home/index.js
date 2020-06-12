@@ -14,8 +14,14 @@ import {
 import logo from '../../assets/logo.png';
 import eco from '../../assets/eco.png';
 import me from '../../assets/me.jpg';
+import room from '../../assets/room.jpg';
 import './styles.css';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import LogoFacebook from 'react-ionicons/lib/LogoFacebook';
+import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
+import { Linking } from 'react-native';
+
+
 
 export default function Home (){
     return(
@@ -79,38 +85,66 @@ export default function Home (){
                 </div>
             </div>
        
+            <div className="div-img">
+                <img className="room" src={room} alt="room" />
+            </div>
+
             <div className="carousel"> 
                 <h2>What our customers say</h2>
                 <Carousel>
                     <Carousel.Item>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        </p>
+                        <h5>Andressa Henriques</h5>
                         <img
                         className="slider-name"
                         src={me}
                         alt="First slide"
                         />
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Item>
                     <Carousel.Item>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        </p>
+                        <h5>Andressa Henriques</h5>
                         <img
                         className="slider-name"
                         src={me}
                         alt="First slide"
                         />
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Item>
                     <Carousel.Item>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        </p>
+                        <h5>Andressa Henriques</h5>
                         <img
                         className="slider-name"
                         src={me}
                         alt="First slide"
                         />
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Item>
                     </Carousel>
             </div>
+
+            <footer>
+                <Nav className="navbar navbar-expand-lg navbarMenu">
+                <NavItem>
+                    <NavLink target="_blank" href="https://www.facebook.com/Port-Stephens-Cleaning-Services-100338908129015/"><LogoFacebook name="LogoFacebook"></LogoFacebook></NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink target="_blank"  href="https://www.linkedin.com/in/andressalh/" ><LogoLinkedin name="logo-linkedin"></LogoLinkedin></NavLink>
+                </NavItem>
+                </Nav>
+            </footer> 
+        
         </Fragment>
     )
 }
