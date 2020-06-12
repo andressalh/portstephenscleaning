@@ -1,0 +1,16 @@
+
+/*BOOK */
+
+
+.button-whatsapp a {
+    color: #fff;
+}
+.button-whatsapp a:hover {
+    color: #fff;
+}
+.button-whatsapp {
+    background-color: #86bbd6;
+    padding: 0.5rem;
+    border: none;
+    margin-top: 2rem;
+}

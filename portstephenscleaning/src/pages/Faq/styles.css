@@ -1,11 +1,12 @@
 .divQuestion {
-    border-top: 1px solid #e5e091 ;
     padding: 20px 0;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding-left: 25rem;
+    padding-right: 25rem;
 }
 
-.divQuestion:last-child {
-    border-bottom: 1px solid #e5e091 ;
-}
 
 .divFaq {
     padding: 3rem 1rem;
@@ -19,4 +20,39 @@
     padding-bottom: 3rem;
     padding-top: 1rem;
     text-align: center;
+}
+.divQuestion h4 {
+    font-size: 1.2rem;
+}
+.question-contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 25rem;
+    border-top: 1px solid #ededed;
+    align-items: center;
+}
+.have-question {
+    display: flex;
+    align-items: flex-end;
+}
+.have-question h5 {
+    color: #86bbd6;
+}
+.have-question #question-contact {
+    color: #86bbd6;
+}
+.have-question p {
+    margin-bottom: 0;
+}
+.have-question h5 {
+    color: #86bbd6;
+    margin-bottom: 0;
+}
+.book a {
+    color: #86bbd6;
+}
+.have-question-img img {
+    width: 70px;
+    padding-bottom: 0.5rem;
+    padding-right: 0.3rem;
 }

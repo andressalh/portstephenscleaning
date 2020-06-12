@@ -5,19 +5,27 @@ import {
     CardBody,
     CardText,
     CardTitle,
+
 } from 'reactstrap';
 import eco from '../../assets/eco.png';
 import me from '../../assets/me.jpg';
 import room from '../../assets/room.jpg';
+import cleaning from '../../assets/cleaning.jpg';
 import './styles.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
+import Book from '../../components/book';
+
 
 export default function Home (){
     return(
         <Fragment>
             <Header/>
+
+            <div className="div-img-header">
+                <img className="cleaning" src={cleaning} alt="cleaning" />
+            </div>
 
             <div id="about">
             <h2>About Us</h2>
@@ -57,6 +65,11 @@ export default function Home (){
                 </div>
             </div>
        
+            <div className="div-book">
+                <h3>Book your free consultation now!</h3>
+                <Book/>
+            </div>
+           
             <div className="div-img">
                 <img className="room" src={room} alt="room" />
             </div>

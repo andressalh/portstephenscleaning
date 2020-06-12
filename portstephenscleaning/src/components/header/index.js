@@ -4,10 +4,10 @@ import {
     Nav,
     NavbarBrand,
     NavItem,
-    NavLink,
     Navbar,
 } from 'reactstrap';
-import logo from '../../assets/logo.png';
+/*import logo from '../../assets/logo.png';
+<img className="logo" src={logo} alt="Logo" /> */
 import { Link } from 'react-router-dom';
 
 export default function Header (){
@@ -17,7 +17,7 @@ export default function Header (){
                 <Navbar  sticky="top"  expand="md">
                     <Nav>
                         <NavItem>
-                            <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo" /></NavbarBrand>
+                            <NavbarBrand href="/">Port Stephens Cleaning </NavbarBrand>
                         </NavItem>
                     </Nav>
                     <Nav className="links">
