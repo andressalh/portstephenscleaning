@@ -1,0 +1,44 @@
+/* MENU */
+
+li.nav-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    color: #000;
+    padding: .5rem 1rem;
+}
+
+.nav-item a:hover {
+    color: #000;
+}
+ul.links.nav {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+img.logo {
+    width: 350px;
+}
+.navbar {
+    padding: 1.5rem 1rem;
+}
+
+
+
+
+@media all and (max-width: 765px) { 
+
+    
+    /*HEADER */
+
+    img.logo {
+        width: 300px;
+    }
+    ul.links.nav {
+        margin: 0 auto;
+    }
+}

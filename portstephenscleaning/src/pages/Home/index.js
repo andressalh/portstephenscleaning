@@ -1,51 +1,23 @@
 import React, { Fragment } from 'react';
 import {
-    Nav,
-    NavbarBrand,
-    NavItem,
-    NavLink,
-    Navbar,
     CardImg,
     Card,
     CardBody,
     CardText,
     CardTitle,
 } from 'reactstrap';
-import logo from '../../assets/logo.png';
 import eco from '../../assets/eco.png';
 import me from '../../assets/me.jpg';
 import room from '../../assets/room.jpg';
 import './styles.css';
 import Carousel from 'react-bootstrap/Carousel';
-import LogoFacebook from 'react-ionicons/lib/LogoFacebook';
-import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
-
-
-
+import Header from '../../components/header';
+import Footer from '../../components/footer';
 
 export default function Home (){
     return(
         <Fragment>
-            <div className="header">
-                <Navbar  sticky="top"  expand="md">
-                    <Nav>
-                        <NavItem>
-                            <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo" /></NavbarBrand>
-                        </NavItem>
-                    </Nav>
-                    <Nav className="links">
-                    <NavItem>
-                        <NavLink href="#about">About</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#services">Services</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#faq">FAQ'S</NavLink>
-                    </NavItem>  
-                    </Nav>
-                </Navbar >
-            </div>
+            <Header/>
 
             <div id="about">
             <h2>About Us</h2>
@@ -93,12 +65,9 @@ export default function Home (){
                 <h2>What our customers say</h2>
                 <Carousel>
                     <Carousel.Item>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        <p>I came home from hospital with my 2nd baby to find our home absolutely spotless, dirty laundry washed and dried, cupboards sorted out.I felt so relaxed! Andrea is very thorough and is consistent every time. I will definitely continue to use her services and highly recommend her.
                         </p>
-                        <h5>Andressa Henriques</h5>
+                        <h5>Laurinda Bartley</h5>
                         <img
                         className="slider-name"
                         src={me}
@@ -106,12 +75,9 @@ export default function Home (){
                         />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        <p>These ladies will redefine what you consider clean and tidy to be!
                         </p>
-                        <h5>Andressa Henriques</h5>
+                        <h5>Jack Davison</h5>
                         <img
                         className="slider-name"
                         src={me}
@@ -119,12 +85,19 @@ export default function Home (){
                         />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        <p>Andrea and her team are very professional. They are always flexible with clean times and their rates are most reasonable in the port Stephens area. They do a beautiful and thorough job on my residence! My guests always compliment on how clean my house is. I can’t thank them enough for their professional service!
                         </p>
-                        <h5>Andressa Henriques</h5>
+                        <h5>Liz Griffith</h5>
+                        <img
+                        className="slider-name"
+                        src={me}
+                        alt="First slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <p>I just wanted to let you know we're very happy with the clean at Shoal Beach House. Thank you for your attention to detail. Look forward to growing our businesses together.
+                        </p>
+                        <h5>Sharon</h5>
                         <img
                         className="slider-name"
                         src={me}
@@ -133,17 +106,7 @@ export default function Home (){
                     </Carousel.Item>
                     </Carousel>
             </div>
-
-            <footer>
-                <Nav className="navbar navbar-expand-lg navbarMenu">
-                <NavItem>
-                    <NavLink target="_blank" href="https://www.facebook.com/Port-Stephens-Cleaning-Services-100338908129015/"><LogoFacebook name="LogoFacebook"></LogoFacebook></NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink target="_blank"  href="https://www.linkedin.com/in/andressalh/" ><LogoLinkedin name="logo-linkedin"></LogoLinkedin></NavLink>
-                </NavItem>
-                </Nav>
-            </footer> 
+           <Footer/>
         
         </Fragment>
     )

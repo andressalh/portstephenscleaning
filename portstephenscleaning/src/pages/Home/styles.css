@@ -4,29 +4,6 @@ body{
     font-family: 'Courier Prime', monospace!important;
 }
 
-/* MENU */
-
-li.nav-item {
-    list-style: none;
-}
-.nav-link {
-    color: #000;
-}
-
-ul.links.nav {
-    margin-right: 0;
-    margin-left: auto;
-}
-
-img.logo {
-    width: 350px;
-}
-.navbar {
-    padding: 1.5rem 1rem;
-}
-.nav-link {
-    text-transform: uppercase;
-}
 
 
 
@@ -120,6 +97,10 @@ ol.carousel-indicators {
 }
 
 
+
+
+
+
 @media all and (max-width: 1167px) {
   
     .card-why-us {
@@ -137,18 +118,7 @@ ol.carousel-indicators {
 
 
 @media all and (max-width: 765px) { 
-
-    
-    /*HEADER */
-
-    img.logo {
-        width: 300px;
-    }
-    ul.links.nav {
-        margin: 0 auto;
-    }
-
-    
+   
     /*ABOUT*/
     #about {
         padding: 4rem 7vw;

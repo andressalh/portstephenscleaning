@@ -1,0 +1,22 @@
+.divQuestion {
+    border-top: 1px solid #e5e091 ;
+    padding: 20px 0;
+}
+
+.divQuestion:last-child {
+    border-bottom: 1px solid #e5e091 ;
+}
+
+.divFaq {
+    padding: 3rem 1rem;
+}
+.divFaq h3 {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.divFaq h3 {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
