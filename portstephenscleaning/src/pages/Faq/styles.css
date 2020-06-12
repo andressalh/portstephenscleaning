@@ -6,7 +6,9 @@
     padding-left: 25rem;
     padding-right: 25rem;
 }
-
+.divQuestion p {
+    padding-top: 1rem;
+}
 
 .divFaq {
     padding: 3rem 1rem;
@@ -28,8 +30,9 @@
     display: flex;
     justify-content: space-around;
     padding: 3rem 25rem;
-    border-top: 1px solid #ededed;
+    /*border-top: 1px solid #ededed;*/
     align-items: center;
+    background-color: #F3F3F3;
 }
 .have-question {
     display: flex;
@@ -51,8 +54,43 @@
 .book a {
     color: #86bbd6;
 }
+.book h5 {
+    font-size: 1rem;
+}
 .have-question-img img {
     width: 70px;
     padding-bottom: 0.5rem;
     padding-right: 0.3rem;
 }
+
+@media all and (max-width: 1360px) {
+    .divQuestion {
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+    .question-contact {
+        padding: 3rem 10rem;
+    }
+}
+
+@media all and (max-width: 952px) {
+    .divQuestion {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .question-contact {
+        flex-direction: column;
+        display: flex;
+        padding: 3rem 2rem;
+    }
+
+    .book h5 {
+        margin-top: 2rem;
+    }
+    .have-question-img img {
+        width: 90px;
+        padding-right: 1rem;
+    }
+}
+
+@media all and (max-width: 750px) { /* your content here */ }

@@ -41,4 +41,9 @@ img.logo {
     ul.links.nav {
         margin: 0 auto;
     }
+    .sticky-top {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 }
