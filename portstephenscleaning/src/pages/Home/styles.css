@@ -59,7 +59,7 @@ img.logo {
 }
 
 .row-why-us {
-    margin: 0 auto;
+    margin: 0 auto!important;
     justify-content: center;
     width: 100%;
 }
@@ -70,7 +70,7 @@ img.logo {
 }
 
 .card-why-us {
-    width: 23rem;
+    width: 23rem;  
     margin-right: 2rem;
 }
 .card-why-us:last-child {
@@ -91,7 +91,7 @@ img.card-img {
 }
 /*carousel*/
 
-.carousel {
+.div-carousel {
     text-align: center;
     background-color: #F3F3F3;
     padding-top: 2rem;
@@ -115,7 +115,8 @@ ol.carousel-indicators {
     background-image: url(../../assets/arrow-left.png)!important;
 }
 .slide p {
-    padding: 0 12rem;
+    padding: 0 23rem;
+    padding-top: 2rem;
 }
 
 
@@ -127,13 +128,49 @@ ol.carousel-indicators {
     .card-why-us:last-child {
         margin-bottom: 0m; 
     }
+    /*SLIDER*/
+    .slide p {
+        padding: 0 15rem;
+        padding-top: 2rem;
+    }
  }
 
 
 @media all and (max-width: 765px) { 
 
+    
+    /*HEADER */
+
+    img.logo {
+        width: 300px;
+    }
+    ul.links.nav {
+        margin: 0 auto;
+    }
+
+    
+    /*ABOUT*/
+    #about {
+        padding: 4rem 7vw;
+    }
+    #about h2 {
+        margin-bottom: 2rem;
+    }
+    
+    /* WHY US */
     .card-why-us {
+        width: 20rem;
         margin-right: 0; 
+    }
+    .slide p {
+        padding: 0 2rem;
+    }
+
+    /*Testemonial*/
+ 
+    .div-carousel {
+        padding-left: 3vw;
+        padding-right: 3vw;
     }
 
  }

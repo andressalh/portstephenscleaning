@@ -19,7 +19,7 @@ import './styles.css';
 import Carousel from 'react-bootstrap/Carousel';
 import LogoFacebook from 'react-ionicons/lib/LogoFacebook';
 import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
-import { Linking } from 'react-native';
+
 
 
 
@@ -89,7 +89,7 @@ export default function Home (){
                 <img className="room" src={room} alt="room" />
             </div>
 
-            <div className="carousel"> 
+            <div className="div-carousel"> 
                 <h2>What our customers say</h2>
                 <Carousel>
                     <Carousel.Item>
