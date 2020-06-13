@@ -105,4 +105,9 @@
     footer.div-footer {
         padding: 1rem;
     }
+    .have-question {
+        align-items: flex-start!important;
+        flex-direction: column;
+        display: flex;
+    }
  }

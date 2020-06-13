@@ -1,35 +1,53 @@
 /* MENU */
-
-li.nav-item {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
+.header {
+    background-image: url(../../assets/header.jpg)!important;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
 }
-
-.nav-item a {
-    color: #000;
+a.nav-link {
+    color: #fff;
     padding: .5rem 1rem;
 }
+a.nav-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
 
-.nav-item a:hover {
-    color: #000;
-}
-ul.links.nav {
-    margin-right: 0;
-    margin-left: auto;
-}
 
 img.logo {
     width: 350px;
 }
 .navbar {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 3rem!important;
 }
-
-
-
-
+ul.mr-auto.nav {
+    text-transform: uppercase;
+    margin-left: auto!important;
+    margin-right: 0!important;
+}
+.collapse.show ul.mr-auto.nav{
+    flex-direction: column;  
+    
+}
+.collapse.show a.nav-link {
+    color: #fff;
+    padding: .5rem 0;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(https://mdbootstrap.com/img/svg/hamburger7.svg?color=fff)!important;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.navbar-light .navbar-brand {
+    color: #fff!important;
+}
+.text-header {
+    padding: 12rem 0;
+}
 @media all and (max-width: 765px) { 
 
     
@@ -38,18 +56,7 @@ img.logo {
     img.logo {
         width: 300px;
     }
-    ul.links.nav {
-        margin: 0 auto;
-    }
-    nav.navbar.navbar-expand-md.sticky-top {
-        display: flex!important;
-        flex-direction: column!important;
-        margin: 0 auto!important;
-    }
-    .have-question {
-        align-items: flex-start!important;
-        flex-direction: column;
-        display: flex;
-    }
+   
+  
   
 }

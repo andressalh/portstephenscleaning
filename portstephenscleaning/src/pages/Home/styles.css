@@ -19,7 +19,7 @@ img.cleaning {
 }
 #about h2 {
     text-transform: uppercase;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 /*DIV Book */
@@ -49,10 +49,9 @@ img.cleaning {
     justify-content: center;
     width: 100%;
 }
-
 #why-us h2 {
     text-transform: uppercase;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .card-why-us {

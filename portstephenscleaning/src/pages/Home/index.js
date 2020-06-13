@@ -16,16 +16,16 @@ import Carousel from 'react-bootstrap/Carousel';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Book from '../../components/book';
-
+/* <div className="div-img-header">
+                <img className="cleaning" src={cleaning} alt="cleaning" />
+            </div>*/
 
 export default function Home (){
     return(
         <Fragment>
             <Header/>
 
-            <div className="div-img-header">
-                <img className="cleaning" src={cleaning} alt="cleaning" />
-            </div>
+           
 
             <div id="about">
             <h2>About Us</h2>
