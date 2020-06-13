@@ -7,11 +7,11 @@
     text-align: center;
     color: #fff;
 }
-a.nav-link {
+.header a{
     color: #fff;
     padding: .5rem 1rem;
 }
-a.nav-link:hover {
+.header a:hover {
     text-decoration: none;
     color: #fff;
 }

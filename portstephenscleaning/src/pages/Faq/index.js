@@ -1,5 +1,4 @@
 import React, { Fragment, Component } from 'react';
-import room from '../../assets/room.jpg';
 import './styles.css';
 import Header from '../../components/header';
 import Footer from '../../components/footer';

@@ -11,7 +11,6 @@ import {
 
 } from 'reactstrap';
 import fridge from '../../assets/fridge.svg';
-import room from '../../assets/cleaning.jpg';
 
 export default function Portfolio() {
 
