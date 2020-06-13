@@ -57,11 +57,7 @@
 .book h5 {
     font-size: 1rem;
 }
-.have-question-img img {
-    width: 70px;
-    padding-bottom: 0.5rem;
-    padding-right: 0.3rem;
-}
+
 
 @media all and (max-width: 1360px) {
     .divQuestion {
@@ -87,10 +83,7 @@
     .book h5 {
         margin-top: 2rem;
     }
-    .have-question-img img {
-        width: 90px;
-        padding-right: 1rem;
-    }
+
 }
 
 @media all and (max-width: 750px) {

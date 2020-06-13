@@ -21,11 +21,7 @@ class Faq extends Component{
         
             <Fragment>
                 <Header/>
-                <div className="div-img">
-                    <img className="room" src={room} alt="room" />
-                </div>
-
-              
+   
                 <div className="divFaq">
                     <h3>Questions? This might help…</h3>
                     <div onClick={()=>{this.setState({show:!this.state.show})}} className="divQuestion">
