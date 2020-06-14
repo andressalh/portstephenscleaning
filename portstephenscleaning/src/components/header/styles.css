@@ -1,27 +1,36 @@
 /* MENU */
 .header {
-    background-image: url(../../assets/header.jpg)!important;
+    background-image: url(../../assets/room1.png)!important;
     height: 80vh;
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #fff;
 }
-.header a{
+
+.header a {
     color: #fff;
-    padding: .5rem 1rem;
+    padding-top: 1rem;
+    padding-left: .5rem;
 }
 .header a:hover {
     text-decoration: none;
     color: #fff;
 }
-
+.logoHeader{
+    width: 150px;
+}
 
 img.logo {
     width: 350px;
 }
+.navbar-expand-lg .navbar-collapse {
+    margin-top: 0;
+    margin-bottom: auto;
+}
 .navbar {
-    padding: 1.5rem 3rem!important;
+    padding: 0!important;
+    padding-right: 3rem;
 }
 ul.mr-auto.nav {
     text-transform: uppercase;
@@ -45,16 +54,29 @@ ul.mr-auto.nav {
 .navbar-light .navbar-brand {
     color: #fff!important;
 }
-.text-header {
-    padding: 12rem 0;
+
+
+/*MENU HAMBURGUER*/
+
+div#responsive-navbar-nav {
+    background-color: #e5e091;
+    padding: 2rem 0;
 }
+div#responsive-navbar-nav  nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: #e5e091;
+}
+
 @media all and (max-width: 765px) { 
 
     
     /*HEADER */
 
-    img.logo {
-        width: 300px;
+    .logoHeader{
+        width: 85px;
+    }
+
+    .header {
+        height: 50vh;
     }
    
   
