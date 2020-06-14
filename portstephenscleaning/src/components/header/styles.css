@@ -62,7 +62,7 @@ div#responsive-navbar-nav {
     background-color: #e5e091;
     padding: 2rem 0;
 }
-div#responsive-navbar-nav  nav.navbar.navbar-expand-lg.navbar-light {
+.collapse.show.header-show   {
     background-color: #e5e091;
 }
 

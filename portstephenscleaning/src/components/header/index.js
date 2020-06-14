@@ -19,7 +19,7 @@ export default function Header (){
     return(
         <Fragment>
             <div className="header">
-            <Navbar collapseOnSelect expand="lg">
+            <Navbar collapseOnSelect expand="lg" className="header-show">
                 <Navbar.Brand href="/"><img className="logoHeader" src={logo} alt="Logo" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

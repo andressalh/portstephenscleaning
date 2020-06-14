@@ -1,10 +1,16 @@
+
 .divQuestion {
-    padding: 20px 0;
     margin: 0 auto;
     justify-content: center;
     text-align: center;
-    padding-left: 25rem;
-    padding-right: 25rem;
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+    margin-right: 25rem;
+    border: 1px solid #e5e091;
+    padding: 1rem;
+}
+.divQuestion:last-child {
+    margin-bottom: 0;
 }
 .divQuestion p {
     padding-top: 1rem;
@@ -60,9 +66,10 @@
 
 
 @media all and (max-width: 1360px) {
+
     .divQuestion {
-        padding-left: 20rem;
-        padding-right: 20rem;
+        margin-left: 13rem;
+        margin-right: 13rem;
     }
     .question-contact {
         padding: 3rem 10rem;
@@ -70,9 +77,10 @@
 }
 
 @media all and (max-width: 952px) {
+
     .divQuestion {
-        padding-left: 5rem;
-        padding-right: 5rem;
+        margin-left: 0;
+        margin-right: 0;
     }
     .question-contact {
         flex-direction: column;
@@ -88,10 +96,7 @@
 
 @media all and (max-width: 750px) {
 
-    .divQuestion {
-        padding-left: 0;
-        padding-right: 0;
-    }
+
     .question-contact {
         padding: 3rem 1rem;
     }
