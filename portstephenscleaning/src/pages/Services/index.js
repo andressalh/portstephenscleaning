@@ -10,7 +10,14 @@ import {
     CardTitle,
 
 } from 'reactstrap';
-import fridge from '../../assets/fridge.svg';
+import fridge from '../../assets/fridge.png';
+import tidying from '../../assets/tidying-beds.png';
+import watering from '../../assets/watering-flowers.png';
+import washing from '../../assets/washing.png';
+import dusting from '../../assets/dusting.png';
+import rubbish from '../../assets/rubbish.png';
+import mopping from '../../assets/mopping.png';
+import vacuuming from '../../assets/vaccuming.png';
 
 export default function Portfolio() {
 
@@ -29,13 +36,13 @@ export default function Portfolio() {
                         <div className="services-types-size">
                             <div className="card-columns">
                                 <Card className="card-services" >
-                                    <CardImg variant="top" src={fridge} />
+                                    <CardImg variant="top" src={vacuuming} />
                                     <CardBody>
                                         <CardTitle>Vacuuming</CardTitle>
                                     </CardBody>
                                 </Card>
                                 <Card className="card-services" >
-                                    <CardImg variant="top" src={fridge} />
+                                    <CardImg variant="top" src={mopping} />
                                     <CardBody>
                                         <CardTitle>Mopping</CardTitle>
                                     </CardBody>
@@ -46,7 +53,7 @@ export default function Portfolio() {
                             <div className="card-columns">
                             
                                 <Card className="card-services" >
-                                    <CardImg variant="top" src={fridge} />
+                                    <CardImg variant="top" src={tidying} />
                                     <CardBody>
                                         <CardTitle>Tidying beds</CardTitle>
                                     </CardBody>
@@ -63,15 +70,15 @@ export default function Portfolio() {
                                 
                                 
                                 <Card className="card-services" >
-                                    <CardImg variant="top" src={fridge} />
+                                    <CardImg variant="top" src={dusting} />
                                     <CardBody>
                                         <CardTitle>Dusting</CardTitle>
                                     </CardBody>
                                 </Card>
                                 <Card className="card-services" >
-                                    <CardImg variant="top" src={fridge} />
+                                    <CardImg variant="top" src={rubbish} />
                                     <CardBody>
-                                        <CardTitle>Rubbidh disposal</CardTitle>
+                                        <CardTitle>Rubbish disposal</CardTitle>
                                     </CardBody>
                                 </Card>                  
                             </div>
@@ -88,19 +95,19 @@ export default function Portfolio() {
                         <div className="card-columns row-additional-services">
                             
                             <Card className="card-services" >
-                                <CardImg variant="top" src={fridge} />
+                                <CardImg variant="top" src={washing} />
                                 <CardBody>
                                     <CardTitle>Washing bed linen</CardTitle>
                                 </CardBody>
                             </Card>
                             <Card className="card-services" >
-                                <CardImg variant="top" src={fridge} />
+                                <CardImg variant="top" src={watering} />
                                 <CardBody>
-                                    <CardTitle>Rubbish disposal weekly</CardTitle>
+                                    <CardTitle>Water plants</CardTitle>
                                 </CardBody>
                             </Card>
                             <Card className="card-services" >
-                                <CardImg variant="top" src={fridge} />
+                                <CardImg variant="top" src={rubbish} />
                                 <CardBody>
                                     <CardTitle>Rubbish disposal weekly</CardTitle>
                                 </CardBody>

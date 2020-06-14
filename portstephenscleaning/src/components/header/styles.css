@@ -11,7 +11,7 @@
 .header a {
     color: #fff;
     padding-top: 1rem;
-    padding-left: .5rem;
+    padding-left: 1.5rem;
 }
 .header a:hover {
     text-decoration: none;
@@ -30,7 +30,7 @@ img.logo {
 }
 .navbar {
     padding: 0!important;
-    padding-right: 3rem;
+    padding-right: 3rem!important;
 }
 ul.mr-auto.nav {
     text-transform: uppercase;
@@ -58,13 +58,7 @@ ul.mr-auto.nav {
 
 /*MENU HAMBURGUER*/
 
-div#responsive-navbar-nav {
-    background-color: #e5e091;
-    padding: 2rem 0;
-}
-.collapse.show.header-show   {
-    background-color: #e5e091;
-}
+
 
 @media all and (max-width: 765px) { 
 

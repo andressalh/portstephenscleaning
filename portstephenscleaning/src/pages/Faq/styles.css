@@ -1,4 +1,3 @@
-
 .divQuestion {
     margin: 0 auto;
     justify-content: center;
@@ -8,6 +7,7 @@
     margin-right: 25rem;
     border: 1px solid #e5e091;
     padding: 1rem;
+    cursor: pointer;
 }
 .divQuestion:last-child {
     margin-bottom: 0;
@@ -19,26 +19,24 @@
 .divFaq {
     padding: 3rem 1rem;
 }
-.divFaq h3 {
-    padding-bottom: 3rem;
-    padding-top: 1rem;
-}
 
 .divFaq h3 {
     padding-bottom: 3rem;
     padding-top: 1rem;
     text-align: center;
 }
+
 .divQuestion h4 {
     font-size: 1.2rem;
+    margin-bottom: 0;
 }
 .question-contact {
     display: flex;
     justify-content: space-around;
     padding: 3rem 25rem;
-    /*border-top: 1px solid #ededed;*/
     align-items: center;
     background-color: #F3F3F3;
+    margin-bottom: 2rem;
 }
 .have-question {
     display: flex;
