@@ -9,12 +9,14 @@ import {
 } from 'reactstrap';
 import eco from '../../assets/eco.png';
 import me from '../../assets/me.jpg';
-import room from '../../assets/room.jpg';
+
 import './styles.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Book from '../../components/book';
+import { Link } from 'react-router-dom';
+
 
 export default function Home (){
     return(
@@ -74,8 +76,32 @@ export default function Home (){
                 <Book/>
             </div>
            
-            <div className="div-img">
-                <img className="room" src={room} alt="room" />
+
+            <div id="services-home">
+                <h2>Our services</h2>
+                <div className="row services-home">
+                   
+                    <Link to="/services">
+                        <div id="div-services-home" className="first-services-home">
+                            <ul>
+                                <li>Residential Cleaning</li>
+                                <li>Commercial cleaning</li>
+                                <li>Spring cleaning</li>
+                            </ul>
+
+                        </div>
+                    </Link>
+                    <Link to="/services">
+                        <div id="div-services-home">
+                            <ul>
+                                <li>End of lease</li>
+                                <li>Airbnb</li>
+                                <li>Laundry</li>
+                            </ul>
+                        </div>
+                        </Link>
+                </div>
+                
             </div>
 
             <div className="div-carousel"> 

@@ -5,7 +5,7 @@ import {
     
 } from 'reactstrap';
 import Navbar from 'react-bootstrap/Navbar'
-import logo from '../../assets/logo2.png';
+import logo from '../../assets/logo4.png';
 import { Link } from 'react-router-dom';
 
 

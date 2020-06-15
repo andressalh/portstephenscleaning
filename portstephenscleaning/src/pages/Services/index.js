@@ -11,8 +11,7 @@ import {
 } from 'reactstrap';
 
 /*ICONS*/
-import fridge from '../../assets/fridge.png';
-import tidying from '../../assets/tidying-beds.png';
+import tidying from '../../assets/bed.png';
 import watering from '../../assets/watering-flowers.png';
 import washing from '../../assets/washing.png';
 import dusting from '../../assets/dusting.png';
@@ -68,7 +67,7 @@ export default function Portfolio() {
                                     </CardBody>
                                 </Card>
                                 <Card className="card-services" >
-                                    <CardImg variant="top" src={fridge} />
+                                    <CardImg variant="top" src={tidying} />
                                     <CardBody>
                                         <CardTitle>Tidying beds</CardTitle>
                                     </CardBody>
@@ -122,7 +121,7 @@ export default function Portfolio() {
                                 </CardBody>
                             </Card>
                             <Card className="card-services" >
-                                <CardImg variant="top" src={fridge} />
+                                <CardImg variant="top" src={rubbish} />
                                 <CardBody>
                                     <CardTitle>Water plants</CardTitle>
                                 </CardBody>
@@ -141,15 +140,15 @@ export default function Portfolio() {
                         <img src={residencial} alt="residencial cleaning" />
                     </div>
                     <div>
-                        <h4>RESIDENTIAL CLEANING</h4>
+                        <h4>Residential Cleaning</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                 </div>
 
-                <div className="service service-left "> 
+                <div className="service service-left"> 
                     
                     <div>
-                        <h4>Commercial CLEANING</h4>
+                        <h4>Commercial cleaning</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                     <div className="div-img-service">
@@ -166,13 +165,14 @@ export default function Portfolio() {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                 </div>
-                <div className="service service-right "> 
-                    <div className="div-img-service">
-                        <img src={endOfLease} alt="endOfLease" />
-                    </div>
+                <div className="service service-left"> 
+                    
                     <div>
                         <h4>End of lease</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div className="div-img-service">
+                        <img src={endOfLease} alt="endOfLease" />
                     </div>
                 </div>
                 <div className="service service-right "> 
@@ -184,13 +184,14 @@ export default function Portfolio() {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                 </div>
-                <div className="service service-right "> 
-                    <div className="div-img-service">
-                        <img src={laundry} alt="laundry" />
-                    </div>
+                <div className="service service-left"> 
+                   
                     <div>
                         <h4>Laundry</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div className="div-img-service">
+                        <img src={laundry} alt="laundry" />
                     </div>
                 </div>
             </div>

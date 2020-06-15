@@ -1,29 +1,26 @@
 /* MENU */
 .header {
-    background-image: url(../../assets/room1.png)!important;
+    background-image: url(../../assets/header2.png)!important;
     height: 80vh;
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
 }
 
 .header a {
-    color: #fff;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-left: 1.5rem;
+    color: #000!important;
 }
 .header a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
-.logoHeader{
-    width: 150px;
+.logoHeader {
+    width: 250px;
 }
 
-img.logo {
-    width: 350px;
-}
+
 .navbar-expand-lg .navbar-collapse {
     margin-top: 0;
     margin-bottom: auto;

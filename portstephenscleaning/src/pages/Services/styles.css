@@ -27,6 +27,7 @@
     width: 33rem;
     margin-left: auto;
     margin-right: 3rem;
+    opacity: 0.9;
 }
 .div-services-types p {
     padding-bottom: 2rem;
@@ -35,7 +36,10 @@
 .services-types-size .card-columns {
     column-count: 2!important;
 }
-
+.services-types-size .card-img, .card-img-bottom, .card-img-top {
+    width: auto!important;
+    padding-top: 1rem;
+}
 .card-services {
     background-color: transparent!important;
 }
@@ -57,7 +61,10 @@
     background-color: #fff;
     padding: 3rem 4vw;
 }
-
+.additional-services .card-img, .card-img-bottom, .card-img-top {
+    width: auto!important;
+    padding-top: 1rem;
+}
 
 
 
@@ -110,6 +117,12 @@
 }
 
 
+@media all and (max-width: 1822px) { 
+    
+    .service {
+        padding: 3rem 13vw;
+    }
+ }
 
 
 @media all and (max-width: 1644px) { 
@@ -119,22 +132,22 @@
     }
  }
 
-@media all and (max-width: 1349px) { 
+@media all and (max-width: 1444px) { 
 
     .service {
         display: flex;
         flex-direction: column;
         padding: 3rem 15rem;
     }
+    .service-right .div-img-service, .service-left .div-img-service {
+        margin-right: 0;
+        margin-top: 3rem;
+        margin-left: 0;
+    }
     .service-right .div-img-service {
         order: 2;
     }
-    .service-right .div-img-service {
-        margin-right: 0;
-    }
-    .service-left .div-img-service {
-        margin-left: 0;
-    }
+
  }
 
  @media all and (max-width:900px) { 
@@ -166,6 +179,5 @@
     
     .div-img-service img {
         width: 300px;
-        height: 500px;
     }
  }
