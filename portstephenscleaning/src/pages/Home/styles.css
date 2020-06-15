@@ -89,7 +89,6 @@ img.cleaning {
     padding-bottom: 2rem;
 }
 #services-home ul {
-    list-style-type: cjk-ideographic;
     list-style-type: circle;
 }
 #services-home li {
@@ -111,7 +110,7 @@ img.cleaning {
 }
 #services-home {
     text-align: center;
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 
 
@@ -198,6 +197,16 @@ ol.carousel-indicators {
         padding: 0 2rem;
     }
 
+    /*Services*/
+    .first-services-home {
+        padding-right: 0;
+    }
+    .services-home.row {
+        justify-content: normal;
+    }
+    #services-home ul {
+        margin-bottom: 0;
+    }
     /*Testemonial*/
  
     .div-carousel {

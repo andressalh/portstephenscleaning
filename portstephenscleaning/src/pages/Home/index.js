@@ -99,7 +99,7 @@ export default function Home (){
                                 <li>Laundry</li>
                             </ul>
                         </div>
-                        </Link>
+                    </Link>
                 </div>
                 
             </div>

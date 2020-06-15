@@ -30,9 +30,45 @@ footer p {
     color: #000;
 }
 
-.div-footer hr {
-    width: 17vw;
+
+.div-footer {
+    display: flex;
+    justify-content: center;
 }
-.div-contact hr {
-    width: 38vw;
+
+.contact-info {
+    display: flex;
+    align-items: center;
 }
+footer hr {
+    width: 36vw;
+}
+h5#contact-email {
+    margin-right: 2rem;
+}
+a.nav-link, a.nav-link:hover {
+    color: #000;
+}
+
+@media all and (max-width: 765px) {
+    .contact-info {
+        display: block;
+    }
+    .div-footer {
+        display: block;
+
+    }
+    .div-footer .navbar {
+        padding: 0!important;
+        margin-bottom: 2rem;
+    }
+    .div-contact a {
+        font-size: 0.8rem;
+    }
+    footer {
+        padding: 1rem;
+    }
+    footer hr {
+        width: 96%;
+    }
+ }

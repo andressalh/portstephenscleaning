@@ -22,19 +22,19 @@ export default function Home (){
                         <NavLink className="logo-whatsapp" target="_blank"  href=" https://api.whatsapp.com/send?phone=61406204408&text=Hey%20there" ><AiOutlineWhatsApp/></NavLink>
                     </NavItem>
                     </Nav>
-                    <hr/>
-                </div>
-                
-                
-                <div className="div-contact">
                     <div className="contact-info">
-                        <h5>andreadavison@gmail.com</h5>
+                     <h5 id="contact-email">andreadavison@gmail.com</h5>
                         <h5>406 204 408</h5>
                     </div>
-                    <hr/>
+                    
+                </div>
+                <hr/>
+                
+                <div className="div-contact">
+                   
                     <p>© Port Stephens Cleaning | All Rights Reserved | Terms & Conditions</p> 
-                    <NavLink target="_blank"  href="andressahenriques.com" >Design by andressahenriques.com</NavLink>
-                 
+                    <NavLink target="_blank"  href="https://andressahenriques.com/" rel="noopener noreferrer">Design by andressahenriques.com</NavLink>
+
                 </div>
             </footer> 
         
