@@ -2,7 +2,6 @@ import React, {Fragment} from 'react';
 import './styles.css';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
-import products from '../../assets/products.png';
 import {
     CardImg,
     Card,
@@ -10,6 +9,8 @@ import {
     CardTitle,
 
 } from 'reactstrap';
+
+/*ICONS*/
 import fridge from '../../assets/fridge.png';
 import tidying from '../../assets/tidying-beds.png';
 import watering from '../../assets/watering-flowers.png';
@@ -18,6 +19,14 @@ import dusting from '../../assets/dusting.png';
 import rubbish from '../../assets/rubbish.png';
 import mopping from '../../assets/mopping.png';
 import vacuuming from '../../assets/vaccuming.png';
+
+/*IMAGES*/
+import airbnb from '../../assets/airbnb.png';
+import residencial from '../../assets/residencial.png';
+import commercial from '../../assets/commercial.png';
+import endOfLease from '../../assets/end-of-lease.png';
+import laundry from '../../assets/laundry.png';
+import springCleaning from '../../assets/Spring-cleaning.png';
 
 export default function Portfolio() {
 
@@ -129,7 +138,7 @@ export default function Portfolio() {
                 <div className="service service-right "> 
                 
                     <div className="div-img-service">
-                        <img src={products} alt="products" />
+                        <img src={residencial} alt="residencial cleaning" />
                     </div>
                     <div>
                         <h4>RESIDENTIAL CLEANING</h4>
@@ -140,20 +149,47 @@ export default function Portfolio() {
                 <div className="service service-left "> 
                     
                     <div>
-                        <h4>RESIDENTIAL CLEANING</h4>
+                        <h4>Commercial CLEANING</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                     <div className="div-img-service">
-                        <img src={products} alt="products" />
+                        <img src={commercial} alt="commercial cleaning" />
                     </div>
                 </div>
 
                 <div className="service service-right "> 
                     <div className="div-img-service">
-                        <img src={products} alt="products" />
+                        <img src={springCleaning} alt="spring cleaning" />
                     </div>
                     <div>
-                        <h4>RESIDENTIAL CLEANING</h4>
+                        <h4>Spring cleaning</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <div className="service service-right "> 
+                    <div className="div-img-service">
+                        <img src={endOfLease} alt="endOfLease" />
+                    </div>
+                    <div>
+                        <h4>End of lease</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <div className="service service-right "> 
+                    <div className="div-img-service">
+                        <img src={airbnb} alt="airbnb" />
+                    </div>
+                    <div>
+                        <h4>Airbnb</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <div className="service service-right "> 
+                    <div className="div-img-service">
+                        <img src={laundry} alt="laundry" />
+                    </div>
+                    <div>
+                        <h4>Laundry</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                 </div>

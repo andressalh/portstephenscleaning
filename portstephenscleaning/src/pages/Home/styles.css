@@ -41,7 +41,7 @@ img.cleaning {
 #why-us {
     text-align: center;
     background-color: #F3F3F3;
-    padding: 2rem 0;
+    padding: 2rem;
 }
 
 .row-why-us {
@@ -55,7 +55,7 @@ img.cleaning {
 }
 
 .card-why-us {
-    width: 23rem;  
+    width: 25rem;  
     margin-right: 2rem;
 }
 .card-why-us:last-child {
@@ -107,6 +107,16 @@ ol.carousel-indicators {
 
 
 
+@media all and (max-width: 1864px) { 
+
+    .card-why-us {
+        margin-bottom: 2rem;
+    }
+    .card-why-us:last-child {
+        margin-right: 2rem;
+    }
+
+ }
 
 
 @media all and (max-width: 1167px) {
@@ -139,6 +149,9 @@ ol.carousel-indicators {
     .card-why-us {
         width: 20rem;
         margin-right: 0; 
+    }
+    .card-why-us:last-child {
+        margin-right: 0;
     }
     .slide p {
         padding: 0 2rem;

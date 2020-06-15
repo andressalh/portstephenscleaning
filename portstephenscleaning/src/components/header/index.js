@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import './styles.css';
 import {
     Nav,
-    NavLink,
+    
 } from 'reactstrap';
 import Navbar from 'react-bootstrap/Navbar'
 import logo from '../../assets/logo2.png';
