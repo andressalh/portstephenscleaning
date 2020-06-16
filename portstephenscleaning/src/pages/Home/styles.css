@@ -157,7 +157,14 @@ ol.carousel-indicators {
     }
 
  }
-
+ @media all and (max-width: 1660px) {
+    .row-why-us {
+        width: 81%;
+    }
+    .card-why-us {
+        width: 28rem;
+    }
+  }
 
 @media all and (max-width: 1167px) {
   
@@ -186,8 +193,11 @@ ol.carousel-indicators {
     }
     
     /* WHY US */
+    .row-why-us {
+        width: 100%;
+    }
     .card-why-us {
-        width: 20rem;
+        width: 22rem;
         margin-right: 0; 
     }
     .card-why-us:last-child {
