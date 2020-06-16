@@ -3,7 +3,9 @@ import './styles.css';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import question from '../../assets/question.png';
-import {MdKeyboardArrowDown} from 'react-icons/md'
+import {MdKeyboardArrowDown} from 'react-icons/md';
+
+
 class Faq extends Component{
 
     constructor(){

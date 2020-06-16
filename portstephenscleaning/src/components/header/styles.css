@@ -1,29 +1,35 @@
 /* MENU */
-.header {
+
+.header-image{
     background-image: url(../../assets/header2.png)!important;
-    height: 80vh;
     background-position: center;
     background-size: cover;
     text-align: center;
+    height: 80vh;
 }
-
+.header-show{
+    background-color: #fff;
+}
 .header a {
-    padding-top: 2rem;
-    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
     color: #000!important;
+}
+ul.mr-auto.nav a:first-child {
+    padding-right: 1rem;
 }
 .header a:hover {
     text-decoration: none;
     color: #000;
 }
 .logoHeader {
-    width: 250px;
+    width: 95px;
 }
 
 
 .navbar-expand-lg .navbar-collapse {
-    margin-top: 0;
-    margin-bottom: auto;
+    /*margin-top: 0;
+    margin-bottom: auto;*/
 }
 .navbar {
     padding: 0!important;
@@ -34,16 +40,19 @@ ul.mr-auto.nav {
     margin-left: auto!important;
     margin-right: 0!important;
 }
-.collapse.show ul.mr-auto.nav{
-    flex-direction: column;  
-    
+
+.collapse.show ul.mr-auto.nav {
+    flex-direction: column;
+    padding-bottom: 2rem;
 }
 .collapse.show a.nav-link {
     color: #fff;
     padding: .5rem 0;
 }
+
+
 .navbar-light .navbar-toggler-icon {
-    background-image: url(https://mdbootstrap.com/img/svg/hamburger7.svg?color=fff)!important;
+    background-image: url(https://mdbootstrap.com/img/svg/hamburger7.svg?color=000)!important;
 }
 .navbar-light .navbar-toggler {
     border: none;
@@ -53,8 +62,12 @@ ul.mr-auto.nav {
 }
 
 
+
 /*MENU HAMBURGUER*/
 
+.header-show button:focus {
+    outline: none;
+}
 
 
 @media all and (max-width: 765px) { 
@@ -63,13 +76,15 @@ ul.mr-auto.nav {
     /*HEADER */
 
     .logoHeader{
-        width: 85px;
+        width: 110px;
     }
 
     .header {
-        height: 50vh;
+        background-position: inherit;
     }
-   
-  
-  
+
+    .navbar {
+        padding-right: 0rem!important;
+    }
+
 }

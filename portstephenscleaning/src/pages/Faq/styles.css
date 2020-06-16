@@ -42,12 +42,10 @@
     display: flex;
     align-items: flex-end;
 }
-.have-question h5 {
+.have-question h5, .have-question #question-contact, .book a {
     color: #86bbd6;
 }
-.have-question #question-contact {
-    color: #86bbd6;
-}
+
 .have-question p {
     margin-bottom: 0;
 }
@@ -55,7 +53,9 @@
     color: #86bbd6;
     margin-bottom: 0;
 }
-.book a {
+
+.book a:hover {
+    text-decoration: none;
     color: #86bbd6;
 }
 .book h5 {

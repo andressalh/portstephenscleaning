@@ -5,7 +5,7 @@ import {
     
 } from 'reactstrap';
 import Navbar from 'react-bootstrap/Navbar'
-import logo from '../../assets/logo4.png';
+import logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
 
 
@@ -16,21 +16,23 @@ import { Link } from 'react-router-dom';
 
                 
 export default function Header (){
+    
+
+ 
     return(
         <Fragment>
             <div className="header">
-            <Navbar collapseOnSelect expand="lg" className="header-show">
+            <Navbar collapseOnSelect expand="lg" className="header-show" id="header-show">
                 <Navbar.Brand href="/"><img className="logoHeader" src={logo} alt="Logo" /></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                <Navbar.Collapse id="responsive-navbar-nav" >
                 <Nav className="mr-auto">
                     <Link to="/services">services</Link>
                     <Link to="/faq">faq's</Link>
-                   
                 </Nav>
                 </Navbar.Collapse>
                 </Navbar>
-                
+                <div className="header-image"></div>
                 
                 
             </div>

@@ -41,13 +41,18 @@ footer p {
     align-items: center;
 }
 footer hr {
-    width: 36vw;
+    width: 40%
 }
 h5#contact-email {
     margin-right: 2rem;
 }
 a.nav-link, a.nav-link:hover {
     color: #000;
+}
+
+
+.nav-link {
+    font-size: 0.8rem;
 }
 
 @media all and (max-width: 765px) {
