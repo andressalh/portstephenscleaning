@@ -9,12 +9,16 @@ import {
 } from 'reactstrap';
 import eco from '../../assets/eco.png';
 import me from '../../assets/me.jpg';
+import ourFocus from '../../assets/our-focus.png';
+import fastCommunication from '../../assets/fast-communication.png';
+import highQuality from '../../assets/high-quality.png';
 
 import './styles.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Book from '../../components/book';
+
 import { Link } from 'react-router-dom';
 
 
@@ -32,7 +36,7 @@ export default function Home (){
                 <h2>Why us</h2>
                 <div className="row row-why-us">
                     <Card className="card-why-us" >
-                        <CardImg variant="top" src={eco} />
+                        <CardImg variant="top" src={ourFocus} />
                         <CardBody>
                             <CardTitle>Our focus</CardTitle>
                             <CardText>
@@ -41,7 +45,7 @@ export default function Home (){
                         </CardBody>
                     </Card>
                     <Card className="card-why-us" >
-                        <CardImg variant="top" src={eco} />
+                        <CardImg variant="top" src={highQuality} />
                         <CardBody>
                             <CardTitle>Customer satisfaction</CardTitle>
                             <CardText>
@@ -50,7 +54,7 @@ export default function Home (){
                         </CardBody>
                     </Card>
                     <Card className="card-why-us" >
-                        <CardImg variant="top" src={eco} />
+                        <CardImg variant="top" src={highQuality} />
                         <CardBody>
                             <CardTitle>High quality service</CardTitle>
                             <CardText>
@@ -59,7 +63,7 @@ export default function Home (){
                         </CardBody>
                     </Card>
                     <Card className="card-why-us" >
-                        <CardImg variant="top" src={eco} />
+                        <CardImg variant="top" src={highQuality} />
                         <CardBody>
                             <CardTitle>Easy, fast communication</CardTitle>
                             <CardText>
