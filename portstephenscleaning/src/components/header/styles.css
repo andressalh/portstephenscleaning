@@ -25,12 +25,17 @@ ul.mr-auto.nav a:first-child {
 .logoHeader {
     width: 95px;
 }
-
-
-.navbar-expand-lg .navbar-collapse {
-    /*margin-top: 0;
-    margin-bottom: auto;*/
+.hr-home {
+    height: 2.5vh;
+    width: 8vw;
+    background-color: #e5e091;
+    margin: 0 auto;
+    margin-top: -1.25vh;
+    border-radius: 50px 50px;
+    border: none;
 }
+
+
 .navbar {
     padding: 0!important;
     padding-right: 3rem!important;
@@ -85,6 +90,19 @@ ul.mr-auto.nav {
 
     .navbar {
         padding-right: 0rem!important;
+    }
+    .hr-home {
+        width: 18vw;
+    }
+
+}
+
+@media all and (max-width: 415px) {
+
+    .hr-home {
+        height: 2.5vh;
+        margin-top: -1.25vh;
+        width: 41vw;
     }
 
 }

@@ -21,9 +21,12 @@
     background-repeat: repeat;
 }
 
+.card-columns .card {
+    margin-bottom: 1rem;
+}
 .services-types-size {
     background-color: #fff;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
     width: 33rem;
     margin-left: auto;
     margin-right: 3rem;
@@ -42,6 +45,11 @@
 }
 .card-services {
     background-color: transparent!important;
+    transition: all .2s ease-in-out; 
+}
+
+.card-services:hover{
+    transform: scale(1.08);
 }
 
 .services-types-size .card-columns .card {
@@ -59,7 +67,7 @@
 .additional-services {
     justify-content: center;
     background-color: #fff;
-    padding: 3rem 4vw;
+    padding: 3rem 1rem;
 }
 .additional-services .card-img, .card-img-bottom, .card-img-top {
     width: auto!important;
@@ -90,6 +98,16 @@
 .service-right  .div-img-service {
     margin-right: 3rem;
 }
+/*animation */
+.div-img-service {
+    transition: all .2s ease-in-out; 
+}
+
+.div-img-service:hover{
+    transform: scale(1.08);
+}
+/* end animation */
+
 .service-right:last-child {
     padding-bottom: 0;
 }
@@ -152,7 +170,7 @@
 
  @media all and (max-width:900px) { 
     .service {
-        padding: 3rem 2rem;
+        padding: 3rem 1rem;
     }
     .services-types-size .card-columns {
         column-count: 1!important;
@@ -178,6 +196,12 @@
     }
     
     .div-img-service img {
-        width: 300px;
+        width: 100%;
+    }
+ }
+ @media all and (max-width:900px) { 
+    .additional-services .card-columns .card {
+        min-width: 17rem!important;
+        display: block;
     }
  }
