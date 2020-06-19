@@ -96,7 +96,7 @@ class Home extends Component{
                         <h3>Increase Happiness.</h3>
                         <p>Porth Stephens makes it easy to book a cleaning. <strong>Anywhere, anytime.</strong></p>
 
-                        <span class="text-underline text-colon">See services</span>
+                        <span class="text-underline text-colon">See our services</span>
                         
                         <div className="right-services">
                             <div className="right-services-h5">
@@ -139,15 +139,7 @@ class Home extends Component{
                                 src={services}
                                 alt="services"
                                 />
-                                <h5>Airbnb</h5>
-                            </div>
-
-                            <div className="right-services-h5">
-                                <img
-                                src={services}
-                                alt="services"
-                                />
-                                <h5>Laundry</h5>
+                                <h5>Airbnb & Laundry</h5>
                             </div>
 
                         </div>
