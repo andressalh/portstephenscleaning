@@ -1,7 +1,7 @@
 /* MENU */
 
 .header-image{
-    background-image: url(../../assets/header2.png)!important;
+    background-image: url(../../assets/header6.png)!important;
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -46,33 +46,7 @@ ul.mr-auto.nav {
     margin-right: 0!important;
 }
 
-.collapse.show ul.mr-auto.nav {
-    flex-direction: column;
-    padding-bottom: 2rem;
-}
-.collapse.show a.nav-link {
-    color: #fff;
-    padding: .5rem 0;
-}
 
-
-.navbar-light .navbar-toggler-icon {
-    background-image: url(https://mdbootstrap.com/img/svg/hamburger7.svg?color=000)!important;
-}
-.navbar-light .navbar-toggler {
-    border: none;
-}
-.navbar-light .navbar-brand {
-    color: #fff!important;
-}
-
-
-
-/*MENU HAMBURGUER*/
-
-.header-show button:focus {
-    outline: none;
-}
 
 
 @media all and (max-width: 765px) { 

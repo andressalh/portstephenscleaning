@@ -96,7 +96,7 @@ class Home extends Component{
                         <h3>Increase Happiness.</h3>
                         <p>Porth Stephens makes it easy to book a cleaning. <strong>Anywhere, anytime.</strong></p>
 
-                        <span class="text-underline text-colon">See our services</span>
+                        <span className="text-underline text-colon">See our services</span>
                         
                         <div className="right-services">
                             <div className="right-services-h5">
