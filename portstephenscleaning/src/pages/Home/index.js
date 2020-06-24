@@ -18,7 +18,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Book from '../../components/book';
-
+import customerSatisfaction from '../../assets/customerSatisfaction.png';
 
 
 class Home extends Component{
@@ -47,7 +47,7 @@ class Home extends Component{
                             </CardBody>
                         </Card>
                         <Card className="card-why-us" >
-                            <CardImg variant="top" src={highQuality} />
+                            <CardImg variant="top" src={customerSatisfaction} />
                             <CardBody>
                                 <CardTitle>Customer satisfaction</CardTitle>
                                 <CardText>
@@ -156,41 +156,21 @@ class Home extends Component{
                             <p>I came home from hospital with my 2nd baby to find our home absolutely spotless, dirty laundry washed and dried, cupboards sorted out.I felt so relaxed! Andrea is very thorough and is consistent every time. I will definitely continue to use her services and highly recommend her.
                             </p>
                             <h5>Laurinda - Anna Bay</h5>
-                            <img
-                            className="slider-name"
-                            src={me}
-                            alt="First slide"
-                            />
                         </Carousel.Item>
                         <Carousel.Item>
                             <p>These ladies will redefine what you consider clean and tidy to be!
                             </p>
                             <h5>Jack - Corlette</h5>
-                            <img
-                            className="slider-name"
-                            src={me}
-                            alt="First slide"
-                            />
                         </Carousel.Item>
                         <Carousel.Item>
                             <p>Andrea and her team are very professional. They are always flexible with clean times and their rates are most reasonable in the port Stephens area. They do a beautiful and thorough job on my residence! My guests always compliment on how clean my house is. I can’t thank them enough for their professional service!
                             </p>
                             <h5>Liz - Corlette</h5>
-                            <img
-                            className="slider-name"
-                            src={me}
-                            alt="First slide"
-                            />
                         </Carousel.Item>
                         <Carousel.Item>
                             <p>I just wanted to let you know we're very happy with the clean at Shoal Beach House. Thank you for your attention to detail. Look forward to growing our businesses together.
                             </p>
                             <h5>Sharon - Nelson bay</h5>
-                            <img
-                            className="slider-name"
-                            src={me}
-                            alt="First slide"
-                            />
                         </Carousel.Item>
                         </Carousel>
                 </div>
