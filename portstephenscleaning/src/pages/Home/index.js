@@ -7,7 +7,6 @@ import {
     CardTitle,
 
 } from 'reactstrap';
-import me from '../../assets/me.jpg';
 import ourFocus from '../../assets/our-focus.png';
 import cleaning from '../../assets/cleaning.png';
 import highQuality from '../../assets/high-quality.png';
@@ -94,7 +93,7 @@ class Home extends Component{
                     <div className="services-home-right">
                         <h3>Reduce Headaches.</h3>
                         <h3>Increase Happiness.</h3>
-                        <p>Porth Stephens makes it easy to book a cleaning. <strong>Anywhere, anytime.</strong></p>
+                        <p>Port Stephens Cleaning Services makes it easy to book a cleaning. <strong>Anywhere, anytime.</strong></p>
 
                         <span className="text-underline text-colon">See our services</span>
                         
