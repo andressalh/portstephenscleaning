@@ -50,19 +50,29 @@ a.nav-link, a.nav-link:hover {
     color: #000;
 }
 
-
 .nav-link {
     font-size: 0.8rem;
 }
 
-@media all and (max-width: 765px) {
+.contact-info h5{
+    margin-bottom: 0;
+}
+
+@media all and (max-width: 927px) {
+
+    .div-footer {
+        display: block;
+    }
     .contact-info {
         display: block;
     }
-    .div-footer {
-        display: block;
-
+    h5#contact-email {
+        margin: 1rem 0;
     }
+}
+@media all and (max-width: 765px) {
+    
+    
     .div-footer .navbar {
         padding: 0!important;
         margin-bottom: 2rem;
@@ -75,5 +85,10 @@ a.nav-link, a.nav-link:hover {
     }
     footer hr {
         width: 96%;
+    }
+    h5#contact-email {
+        word-wrap:  break-word;
+        font-size: 1rem;
+        margin-right: 0;
     }
  }

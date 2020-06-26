@@ -347,5 +347,8 @@ ol.carousel-indicators {
     .carousel-control-prev, .carousel-control-next {
         display: none;
     }
+    .card-why-us:hover{
+        transform: scale(1);
+    }
 
 }
