@@ -18,8 +18,6 @@ import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Book from '../../components/book';
 import customerSatisfaction from '../../assets/customerSatisfaction.png';
-
-
 class Home extends Component{
 
     render (){
@@ -28,11 +26,11 @@ class Home extends Component{
                 <Header/>
                 
                 <div id="about">
-                <h2>About Us</h2>
-                <p>We're a small family-owned and -operated business located in Nelson Bay-Corlette, and are proud to be relied upon by local and out-of-town property owners to provide detailed, committed and reliable home, AirBnB and commercial cleaning and laundry services in the Port Stephens area. We happily go the extra mile with any number of supplementary tasks that most don't even consider! If you need someone to take care of all the things you can't (or just don't have time to), call us today for a chat, and we can arrange to arrive at your location weekly, fortnightly or monthly.</p>
+                    <h2>About Us</h2>
+                    <p>We're a small family-owned and -operated business located in Nelson Bay-Corlette, and are proud to be relied upon by local and out-of-town property owners to provide detailed, committed and reliable home, AirBnB and commercial cleaning and laundry services in the Port Stephens area. We happily go the extra mile with any number of supplementary tasks that most don't even consider! If you need someone to take care of all the things you can't (or just don't have time to), call us today for a chat, and we can arrange to arrive at your location weekly, fortnightly or monthly.</p>
                 </div>
     
-                    
+                                
                 <div id="why-us">
                     <h2>Why us</h2>
                     <div className="row row-why-us ">

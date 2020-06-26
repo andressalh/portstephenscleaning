@@ -23,7 +23,7 @@ export default function Home (){
                     </NavItem>
                     </Nav> 
                     <div className="contact-info">
-                     <h5 id="contact-email">andreadavison@gmail.com</h5>
+                     <h5 id="contact-email">andread@portstephenscleaningservices.com.au</h5>
                         <h5>0406 204 408</h5>
                     </div>
                     
