@@ -7,10 +7,10 @@ import {
     CardTitle,
 
 } from 'reactstrap';
-import ourFocus from '../../assets/our-focus.png';
+import ourFocus from '../../assets/ourFocus.png';
 import cleaning from '../../assets/cleaning.png';
-import highQuality from '../../assets/high-quality.png';
-import fastCommunication from '../../assets/fast-communication.png';
+import highQuality from '../../assets/highQuality.png';
+import fastCommunication from '../../assets/fastCommunication.png';
 import services from '../../assets/services.png';
 import './styles.css';
 import Carousel from 'react-bootstrap/Carousel';

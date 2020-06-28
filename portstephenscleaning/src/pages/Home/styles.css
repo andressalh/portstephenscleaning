@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
-
-body{
-    font-family: 'Courier Prime', monospace!important;
+body {
+    font-family: 'Courier Prime', sans-serif !important;
 }
 
 
@@ -207,10 +205,10 @@ ol.carousel-indicators {
     display: none;
 }
 .carousel-control-next-icon {
-    background-image: url(../../assets/arrow-right.png)!important;
+    background-image: url(../../assets/arrowRight.png)!important;
 }
 .carousel-control-prev-icon {
-    background-image: url(../../assets/arrow-left.png)!important;
+    background-image: url(../../assets/arrowLeft.png)!important;
 }
 .slide p {
     padding: 0 23rem;
