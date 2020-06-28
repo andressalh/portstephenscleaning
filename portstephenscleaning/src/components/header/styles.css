@@ -1,5 +1,10 @@
 /* MENU */
-
+.header h1 {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
 .header-image{
     background-image: url(../../assets/header2.webp)!important;
     background-position: center;
