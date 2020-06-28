@@ -1,7 +1,7 @@
 /* MENU */
 
 .header-image{
-    background-image: url(../../assets/header2.png)!important;
+    background-image: url(../../assets/header2.webp)!important;
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -36,7 +36,7 @@ ul.mr-auto.nav a:first-child {
 }
 
 
-.navbar {
+.header .navbar {
     padding: 0!important;
     padding-right: 3rem!important;
 }
@@ -62,7 +62,7 @@ ul.mr-auto.nav {
         background-position: inherit;
     }
 
-    .navbar {
+    .header .navbar {
         padding-right: 0rem!important;
     }
     .hr-home {

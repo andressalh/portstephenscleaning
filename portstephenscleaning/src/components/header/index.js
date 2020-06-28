@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import './styles.css';
 import Navbar from 'react-bootstrap/Navbar'
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.webp';
 
                 
 export default function Header (){

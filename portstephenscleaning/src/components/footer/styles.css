@@ -41,7 +41,7 @@ footer p {
     align-items: center;
 }
 footer hr {
-    width: 40%
+    width: 80%
 }
 h5#contact-email {
     margin-right: 2rem;
@@ -84,7 +84,7 @@ a.nav-link, a.nav-link:hover {
         padding: 1rem;
     }
     footer hr {
-        width: 96%;
+        width: 86%;
     }
     h5#contact-email {
         word-wrap:  break-word;

@@ -27,15 +27,8 @@ img.cleaning {
     background-color: #ced7bd;
     color: #fff;
 }
-/*img*/
-
-.imgHeader img {
-    width: 100vw;
-}
-
 
 /*why us*/
-
 
 
 #why-us {
@@ -82,26 +75,8 @@ img.cleaning {
 #services-home h2 {
     padding-bottom: 2rem;
 }
-#services-home ul {
-    list-style-type: circle;
-}
-#services-home li {
-    padding-bottom: 0.5rem;
-}
-.services-home.row {
-    text-align: justify;
-    justify-content: center;
-    margin: 0;
-}
-.row.services-home a {
-    color: #000;
-}
-.row.services-home a:hover{
-    text-decoration: none;
-}
-.first-services-home {
-    padding-right: 6rem;
-}
+
+
 
 #services-home {
     padding: 3rem 2rem;
@@ -194,21 +169,15 @@ span.text-underline.text-colon {
     padding-bottom: 2rem;
 }
 
-.slider-name {
-    width: 80px!important;
-    align-items: center;
-    margin: 0 auto;
-    border-radius: 20px 50px;
-}
 
 ol.carousel-indicators {
     display: none;
 }
 .carousel-control-next-icon {
-    background-image: url(../../assets/arrowRight.png)!important;
+    background-image: url(../../assets/arrowRight.webp)!important;
 }
 .carousel-control-prev-icon {
-    background-image: url(../../assets/arrowLeft.png)!important;
+    background-image: url(../../assets/arrowLeft.webp)!important;
 }
 .slide p {
     padding: 0 23rem;

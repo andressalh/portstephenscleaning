@@ -7,17 +7,17 @@ import {
     CardTitle,
 
 } from 'reactstrap';
-import ourFocus from '../../assets/ourFocus.png';
-import cleaning from '../../assets/cleaning.png';
-import highQuality from '../../assets/highQuality.png';
-import fastCommunication from '../../assets/fastCommunication.png';
-import services from '../../assets/services.png';
+import ourFocus from '../../assets/ourFocus.webp';
+import cleaning from '../../assets/cleaning.webp';
+import highQuality from '../../assets/highQuality.webp';
+import fastCommunication from '../../assets/fastCommunication.webp';
+import services from '../../assets/services.webp';
 import './styles.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Book from '../../components/book';
-import customerSatisfaction from '../../assets/customerSatisfaction.png';
+import customerSatisfaction from '../../assets/customerSatisfaction.webp';
 class Home extends Component{
 
     render (){
