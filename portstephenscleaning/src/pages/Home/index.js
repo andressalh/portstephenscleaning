@@ -35,7 +35,7 @@ class Home extends Component{
                     <h2>Why us</h2>
                     <div className="row row-why-us ">
                         <Card className="card-why-us" >
-                            <CardImg variant="top" src={ourFocus} />
+                            <CardImg variant="top" src={ourFocus} alt="Port Stephens Cleaning Services Icon"/>
                             <CardBody>
                                 <CardTitle>Our focus</CardTitle>
                                 <CardText>
@@ -44,7 +44,7 @@ class Home extends Component{
                             </CardBody>
                         </Card>
                         <Card className="card-why-us" >
-                            <CardImg variant="top" src={customerSatisfaction} />
+                            <CardImg variant="top" src={customerSatisfaction} alt="Port Stephens Cleaning Services Icon" />
                             <CardBody>
                                 <CardTitle>Customer satisfaction</CardTitle>
                                 <CardText>
@@ -53,7 +53,7 @@ class Home extends Component{
                             </CardBody>
                         </Card>
                         <Card className="card-why-us" >
-                            <CardImg variant="top" src={highQuality} />
+                            <CardImg variant="top" src={highQuality} alt="Port Stephens Cleaning Services Icon"/>
                             <CardBody>
                                 <CardTitle>High quality service</CardTitle>
                                 <CardText>
@@ -62,7 +62,7 @@ class Home extends Component{
                             </CardBody>
                         </Card>
                         <Card className="card-why-us" >
-                            <CardImg variant="top" src={fastCommunication} />
+                            <CardImg variant="top" src={fastCommunication} alt="Port Stephens Cleaning Services Icon"/>
                             <CardBody>
                                 <CardTitle>Easy, fast communication</CardTitle>
                                 <CardText>
@@ -85,7 +85,7 @@ class Home extends Component{
                         <img
                             className=""
                             src={cleaning}
-                            alt="First slide"
+                            alt="Port Stephens Cleaning Services"
                             />
                     </div>
                     <div className="services-home-right">
@@ -99,7 +99,7 @@ class Home extends Component{
                             <div className="right-services-h5">
                                 <img
                                 src={services}
-                                alt="services"
+                                alt="Port Stephens Cleaning Services icon"
                                 />
                                 <h5>Residential Cleaning</h5>
                             </div>
@@ -107,7 +107,7 @@ class Home extends Component{
                             <div className="right-services-h5">
                                 <img
                                 src={services}
-                                alt="services"
+                                alt="Port Stephens Cleaning Services icon"
                                 />
                                 <h5>Commercial cleaning</h5>
                             </div>
@@ -115,7 +115,7 @@ class Home extends Component{
                             <div className="right-services-h5">
                                 <img
                                 src={services}
-                                alt="services"
+                                alt="Port Stephens Cleaning Services icon"
                                 />
                                 <h5>Spring cleaning</h5>
                             </div>
@@ -126,7 +126,7 @@ class Home extends Component{
                             <div className="right-services-h5">
                                 <img
                                 src={services}
-                                alt="services"
+                                alt="Port Stephens Cleaning Services icon"
                                 />
                                 <h5>End of lease</h5>
                             </div>
@@ -134,7 +134,7 @@ class Home extends Component{
                             <div className="right-services-h5">
                                 <img
                                 src={services}
-                                alt="services"
+                                alt="Port Stephens Cleaning Services icon"
                                 />
                                 <h5>Airbnb & Laundry</h5>
                             </div>
